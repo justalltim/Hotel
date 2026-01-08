@@ -1,17 +1,23 @@
+#ifndef HOTEL_H
+#define HOTEL_H
 #include <iostream>
-
-Class Hotel {
-private:   
+#include <vector>
+#include <string>
+#include "Chambre.h"
+class Hotel {
+private:
     std::string nom;
     std::string ville;
     int Identifiant;
-    ensembleChambres;
+std::vector<Chambre> ensembleChambres;
 public:
-    Hotel( std::string nom, std::string ville, int Identifiant) {
+    Hotel(std::string nom, std::string ville, int Identifiant) {
         this->nom = nom;
         this->ville = ville;
         this->Identifiant = Identifiant;
-        this->ensembleChambres = ensembleChambres;
-    }  
-             
+    }
+    void ajouterChambre(const Chambre& chambre) {
+        ensembleChambres.push_back(chambre);
+    }
 };
+#endif

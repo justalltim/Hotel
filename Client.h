@@ -1,18 +1,21 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#ifndef CLIENT_H
+#define CLIENT_H
 #include <iostream>
-class Client
-{
-private: 
+#include <string>
+class Client {
+private:
     std::string nom;
     std::string prenom;
     int Identifiant;
 public:
-    Client( std::string nom, std::string prenom, int Identifiant) {
+    Client(std::string nom, std::string prenom, int Identifiant) {
         this->nom = nom;
         this->prenom = prenom;
         this->Identifiant = Identifiant;
-    }  
-             
+    }
+    void afficherClient();
+    std::string getNom() const { return nom; }
+    std::string getPrenom() const { return prenom; }
+    int getIdentifiant() const { return Identifiant; }
 };
+#endif

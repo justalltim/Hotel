@@ -1,10 +1,5 @@
 #include "Chambre.h"
-void Chambre::ModifierPrix() {
-    std::cout << "Nouveau prix: " << std::endl;
-    std::cin >> nouveauPrix;
+void Chambre::ModifierPrix(float nouveauPrix) {
     prix = nouveauPrix;
-}
-int main() {
-    Chambre chambre1(101, "Single", 75);
-    chambre1.ModifierPrix();
+    std::cout << "Nouveau prix de la chambre : " << prix << std::endl;
 }
