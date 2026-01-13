@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-#include "Hotel.h"
-#include "Chambre.h"
-=======
+
 #include "Hotel.h"
 #include "Chambre.h"
 
@@ -26,4 +23,4 @@ int main() {
     hotel1.AjouterChambre();
     hotel1.SupprimerChambre();
 }
->>>>>>> ccbb46c0f5e0f43fb3979032a848e07793dfbc9c
+
