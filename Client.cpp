@@ -1,5 +1,8 @@
 #include "Client.h"
+<<<<<<< HEAD
 
+=======
+>>>>>>> f82fe2e8d4910e47cd5cd7cde90db7868457ce7d
 void Client::afficherClient() {
     std::cout << "Nom: " << nom << std::endl;
     std::cout << "Prenom: " << prenom << std::endl;
@@ -14,3 +17,7 @@ int main() {
     client2.afficherClient();
     return 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f82fe2e8d4910e47cd5cd7cde90db7868457ce7d

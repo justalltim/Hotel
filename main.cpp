@@ -21,4 +21,4 @@ int main() {
 
     chambres.push_back(Chambre(301, "Suite", 210.0, "Hotel"));
     chambres.push_back(Chambre(302, "Suite", 210.0, "Hotel"));
-
+};

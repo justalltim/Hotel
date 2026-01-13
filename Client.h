@@ -19,3 +19,7 @@ public:
     int getIdentifiant() const { return Identifiant; }
 };
 #endif
+<<<<<<< HEAD
+=======
+
+>>>>>>> f82fe2e8d4910e47cd5cd7cde90db7868457ce7d
