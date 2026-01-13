@@ -1,4 +1,3 @@
-
 #include "Chambre.h"
 void Chambre::ModifierPrix(float nouveauPrix) {
     prix = nouveauPrix;
