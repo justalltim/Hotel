@@ -1,4 +1,3 @@
-
 #include "Client.h"
 void Client::afficherClient() {
     std::cout << "Nom: " << nom << std::endl;
