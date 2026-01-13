@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <vector>
 #include "Date.h"
@@ -22,14 +21,3 @@ int main() {
 
     chambres.push_back(Chambre(301, "Suite", 210.0, "Hotel"));
     chambres.push_back(Chambre(302, "Suite", 210.0, "Hotel"));
-
-=======
-#include <iostream>
-#include "Date.h"
-#include "Client.h"
-#include "Chambre.h"    
-#include "Hotel.h"
-#include "Reservation.h"
-int main() {
-    Hotel hotel1("Hotel", "Dijon", 1001);
->>>>>>> ccbb46c0f5e0f43fb3979032a848e07793dfbc9c
