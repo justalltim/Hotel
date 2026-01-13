@@ -22,7 +22,3 @@ int main() {
     hotel1.AjouterChambre();
     hotel1.SupprimerChambre();
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> f82fe2e8d4910e47cd5cd7cde90db7868457ce7d

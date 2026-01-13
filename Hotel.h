@@ -11,7 +11,7 @@ private:
     int Identifiant;
 std::vector<Chambre> ensembleChambres;
 public:
-    friend operator << ()
+    friend std::ostream& operator<<(std::ostream& os, const Chambre& chambre);
     Hotel(std::string nom, std::string ville, int Identifiant) {
         this->nom = nom;
         this->ville = ville;
