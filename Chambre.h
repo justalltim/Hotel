@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef CHAMBRE_H
 #define CHAMBRE_H
 #include <iostream>
