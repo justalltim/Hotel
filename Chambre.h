@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef CHAMBRE_H
 #define CHAMBRE_H
 #include <iostream>
@@ -23,23 +22,3 @@ public:
     std::string getHotel() const { return hotel; }
 };
 #endif
-=======
-#include <stdbool.h>
-#include <iostream> 
-class Chambre 
-{
-private:
-    int numero;
-    std::string type;
-    float prix;
-    std::string hotel;
-public:
-    Chambre( int numero, std::string type, float prix, std::string hotel) {
-        this->numero = numero;
-        this->type = type;
-        this->prix = prix;
-        this->hotel = hotel;
-    }
-
-};
->>>>>>> ccbb46c0f5e0f43fb3979032a848e07793dfbc9c

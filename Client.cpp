@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-#include "Client.h"
-void Client::afficherClient() {
-    std::cout << "Nom: " << nom << std::endl;
-    std::cout << "Prenom: " << prenom << std::endl;
-    std::cout << "Identifiant: " << Identifiant << std::endl;
-}
-=======
 #include "Client.h"
 
 void Client::afficherClient() {
@@ -22,4 +14,3 @@ int main() {
     client2.afficherClient();
     return 0;
 }
->>>>>>> ccbb46c0f5e0f43fb3979032a848e07793dfbc9c
