@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef HOTEL_H
 #define HOTEL_H
 #include <iostream>
@@ -22,3 +23,22 @@ public:
     }
 };
 #endif
+=======
+#include <iostream>
+
+Class Hotel {
+private:   
+    std::string nom;
+    std::string ville;
+    int Identifiant;
+    ensembleChambres;
+public:
+    Hotel( std::string nom, std::string ville, int Identifiant) {
+        this->nom = nom;
+        this->ville = ville;
+        this->Identifiant = Identifiant;
+        this->ensembleChambres = ensembleChambres;
+    }  
+             
+};
+>>>>>>> ccbb46c0f5e0f43fb3979032a848e07793dfbc9c
