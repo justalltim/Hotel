@@ -11,6 +11,7 @@ private:
     int Identifiant;
 std::vector<Chambre> ensembleChambres;
 public:
+    friend operator << ()
     Hotel(std::string nom, std::string ville, int Identifiant) {
         this->nom = nom;
         this->ville = ville;
